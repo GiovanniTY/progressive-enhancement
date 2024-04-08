@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+body{
+    font-family : "Open Sans"
+}
 p {
     font-family: serif;
     font-size: 20px;
@@ -104,3 +109,28 @@ ul li:nth-child(3) {
     background-size: contain;
 
 }
+.float-left {
+    float :left;
+    margin-right: 20px;
+}
+
+.flex-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-float2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    background-color: #f00; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
