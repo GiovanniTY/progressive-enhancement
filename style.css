@@ -1,0 +1,106 @@
+p {
+    font-family: serif;
+    font-size: 20px;
+    color: darkblue;
+    line-height: 2.5;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    transition: color 3.3s;
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+    transition: 3.3s;
+}
+
+body {
+    background: url('https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/09/A_Day_View_of_Moon.jpg?im=AspectCrop=(16,9);');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background: grey;
+    border-left: 3px solid Firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
+.villager {
+    border-left-color: green;
+}
+
+.farmer {
+    border-left-color: blue;
+}
+
+header > nav {
+    background-color: yellow;
+}
+
+.Good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.Bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: lightgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+ul li:first-of-type {
+    background-image: url('https://www.nationalgeographic.it/upload/ngi-hero/cover-1699024651573-Luna.jpeg');
+    padding-right: 20px;
+}
+
+h4:first-of-type {
+    font-weight: bold;
+}
+
+ul li:nth-child(1) {
+    background-image: url('/asset/bien.png');
+    padding-right: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul li:nth-child(2) {
+    background-image: url('/asset/mal.png');
+    padding-right: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul li:nth-child(3) {
+    background-image: url('/asset/chat.png');
+    padding-right: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
